@@ -1,0 +1,19 @@
+.container{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url('/public/bg6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    height:50px;
+    width:100%;
+    color:white;
+    position:relative;
+    box-shadow: 0 5px 5px rgb(173, 169, 169);
+}
+
+.title{
+    margin-left:5px;
+}

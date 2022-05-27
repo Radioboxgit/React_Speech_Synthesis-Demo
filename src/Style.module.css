@@ -1,0 +1,142 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background: url('/public/bg7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    padding-bottom:15px;
+
+}
+
+.heading{
+    font-size:24px;
+    margin-top:10px;
+    margin-bottom:20px;
+    color:rgb(178, 145, 240);
+    font-weight:bold;
+
+}
+
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:650px;
+}
+
+.textarea{
+    background-color:rgb(1, 42, 70);
+    resize:none;
+    height:250px;
+    padding:10px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    color:rgb(225, 214, 255);
+    font-size:18px;
+    width: 100%;
+}
+
+.textarea::placeholder{
+    color:rgb(239, 239, 240);
+}
+
+.indicator{
+    background-color:whitesmoke;
+    padding:5px;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom:5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top:0;
+    margin-right:-11px;
+}
+
+.control>button{
+    margin-top:30px;
+    padding:7px;
+    border-radius:10px;
+    background-color:  rgb(65, 42, 1);
+    color:darkorange;
+    border:0;
+    font-weight:bold;
+    cursor: pointer;
+    box-shadow:-2px -2px 2px rgb(253, 157, 40), 2px 2px 2px rgb(255, 253, 251);
+}
+.control>button:hover{
+    background-color:  rgb(252, 136, 58);
+    color:rgb(10, 10, 10);
+    box-shadow:2px -2px 2px rgb(75, 42, 1), 2px -2px 2px rgb(189, 140, 77);
+}
+
+
+.error{
+    margin-top:30px;
+    color:rgb(255, 140, 184);
+    background-color:rgb(58, 2, 30);
+    padding:5px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.control{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.processing{
+    margin-top:40px;
+    color:rgb(47, 70, 3);
+    background-color: rgb(253, 232, 39);
+    padding:6px;
+    border-radius:12px;
+    font-weight:bold;
+}
+
+@media only screen and (max-width:720px) {
+    .container{
+            background: url('/public/bg3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+    }
+
+    .form{
+        width: 350px;
+    }
+
+
+    .textarea{
+        border-radius: 15px;
+    }
+    .indicator{
+        justify-content: center;
+        align-self: center;
+        border-radius:3px;
+    }
+    .control{
+        margin-bottom:10px;
+    }
+  }
+
+
+  @media only screen and (max-width:350px) {
+    .form{
+        width: 200px;
+    }
+  }
+
+    
+
+
+
+
