@@ -23,8 +23,8 @@ function App() {
         try{
         const utt=new SpeechSynthesisUtterance(text);
         utt.volume=1
-        utt.rate=1.2
-        utt.pitch=8
+        utt.rate=1.1
+        utt.pitch=5
         speechSynthesis.speak(utt)
     } catch(error){
       setError(error.message) }
