@@ -1,6 +1,6 @@
 # React Speech Synthesis Demo
 
-See the  [Live Demo Here](https://react-speech-synthesis.vercel.app)
+See the  [Live Demo Here](https://react-speech-synthesis-demo.vercel.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
