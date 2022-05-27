@@ -5,7 +5,7 @@ export default function Footer(){
 
     return(
         <div className={footerStyles.container}>
-            <p className={footerStyles.attribution}>Product of <a target="_blank" rel="noreferrer"  href="https://anigbogu-resume.vercel">Codeclas </a></p>
+            <p className={footerStyles.attribution}>Product of <a target="_blank" rel="noreferrer"  href="https://anigbogu-resume.vercel.app">Codeclas </a></p>
         </div>
     )
 }
